@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "BirdID",
+    "slug": "bird-id-app",
+    "privacy": "public",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "orientation": "portrait",
+    "primaryColor": "#FFFFFF",
+    "icon": "./icons/app-icon/birdid_logo_1920_transparent.png",
+    "splash": {
+      "image": "./icons/app-icon/birdid_logo_1000.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./icons/app-icon/birdid_logo_1920_transparent.png"
+      },
+      "package": "com.bird_id_development.birdidapp"
+    },
+    "web": {
+      "favicon": "./icons/app-icon/birdid_logo_1920.png"
+    }
+  }
+}
